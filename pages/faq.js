@@ -1,5 +1,8 @@
-import Head from 'next/head';
-import Link from '../src/components/Link';
+//import Head from 'next/head';
+//import Link from '../src/components/Link';
+import FAQScreen from '../src/screens/FAQScreen';
+
+export default FAQScreen;
 
 //SSG - Static Site Generation
 //SSR - Server Site Rendering
@@ -27,7 +30,7 @@ export async function getStaticProps(){
     };
 }
 
-export default function FaqPage({faq}){
+/* export default function FaqPage({faq}){
     return(
         <div>
             <Head>
@@ -47,4 +50,4 @@ export default function FaqPage({faq}){
             </ul>
         </div>  
     )
-}
+} */
